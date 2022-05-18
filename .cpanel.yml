@@ -3,7 +3,7 @@ deployment:
     - export DEPLOYPATH=/home/louisvan/public_html/
     - /bin/cp -r /home/louisvan/repositories/website/* .vscode $DEPLOYPATH
     - /bin/cp -r /home/louisvan/repositories/website/* assets $DEPLOYPATH
-    - /bin/cp -r /home/louisvan/repositories/website/* css $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* styles.css $DEPLOYPATH
     - /bin/cp -r /home/louisvan/repositories/website/* fonts $DEPLOYPATH
     - /bin/cp -r /home/louisvan/repositories/website/* img $DEPLOYPATH
     - /bin/cp -r /home/louisvan/repositories/website/* js $DEPLOYPATH
