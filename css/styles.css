@@ -5,3 +5,10 @@ body {
 #main {
   text-align: center;
 }
+
+#header {
+  text-align: left;
+  font-size: 18px;
+  background-color: lightgray;
+  font-family: sans-serif;
+}
