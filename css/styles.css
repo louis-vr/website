@@ -1,28 +1,66 @@
-body {
-  background-color: gray;
+html, body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 #main {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 #header {
-  text-align: left;
-  font-size: 18px;
-  background-color: lightgray;
-  font-family: sans-serif;
+  background-color: #0fbbff;
   position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
+  box-shadow: 0px 1px 5px 0px #000000;
+  z-index: 1;
 }
 
 .title {
   font-weight: bold;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 20px 0px 20px;
+  text-align: left;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 #content {
   position: relative;
-  top: 50px
+  top: 50px;
+  margin: auto;
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#footer {
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  background-color: lightgray;
+  width: 100%;
+}
+
+#footerTable {
+  background-color: lightgray;
+  width: inherit;
+  padding: 10px;
+  height: auto;
+}
+
+td.footerItem {
+  margin: 5px;
+  padding: 5px;
 }
