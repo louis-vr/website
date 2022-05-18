@@ -1,10 +1,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/louisvan/public_html/
-    - /bin/cp -R .vscode $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* .vscode $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* assets $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* css $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* fonts $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* img $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* js $DEPLOYPATH
+    - /bin/cp -r /home/louisvan/repositories/website/* index.html $DEPLOYPATH
